@@ -1,0 +1,40 @@
+KẾT QUẢ BENCHMARK CÁ NHÂN
+Họ tên: Trịnh Đức Huy
+MSSV: 2A202602865
+Chiến lược: Semantic Chunking
+Backend: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Cấu hình: chunk_size=500, semantic_threshold=0.5, top_k=3
+Corpus: 8 tài liệu, 156 chunks
+Nguồn kết quả: report/benchmark_results.json (mock=false)
+
+Q1. Mượn giáo trình phòng 111
+1 | student-textbook-borrowing#0 | 0.650083 | Chỉ có tiêu đề tài liệu.
+2 | student-textbook-borrowing#9 | 0.591399 | Có hạn mức 8 cuốn.
+3 | student-textbook-borrowing#10 | 0.552258 | Có 90 ngày, gia hạn 30 ngày, tổng 120 ngày.
+Đánh giá: Đạt nhưng dữ kiện không ở top-1; cần ghép top-2 và top-3.
+
+Q2. Mượn sách tham khảo phòng 102
+1 | student-reference-book-borrowing#7 | 0.646336 | Chỉ có tiêu đề chính sách.
+2 | student-reference-book-borrowing#0 | 0.633998 | Chỉ có tiêu đề tài liệu.
+3 | document-renewal#1 | 0.579539 | Nhiễu: tiêu đề quy trình gia hạn.
+Đánh giá: Failure case; không có các số 5 cuốn, 1-30 ngày và 7 ngày trong top-3.
+
+Q3. Thời gian và quy trình nhận/trả chìa khóa phòng học nhóm
+1 | group-study-room#7 | 0.744599 | Chỉ có tiêu đề quy trình.
+2 | group-study-room#0 | 0.551507 | Chỉ có giới thiệu dịch vụ.
+3 | student-reference-book-borrowing#2 | 0.533177 | Nhiễu: tiêu đề vị trí và giờ phòng 102.
+Đánh giá: Failure case; top-3 thiếu khung giờ và các bước nhận/trả chìa khóa.
+
+Q4. Quy trình reset mật khẩu tài khoản thư viện
+1 | library-account#10 | 0.666802 | Tiêu đề đăng nhập và đổi mật khẩu.
+2 | library-account#2 | 0.663417 | Tiêu đề reset mật khẩu.
+3 | library-account#7 | 0.640889 | Có email đặt lại và bước 5.
+Đánh giá: Có một phần; thiếu bước 1-4 và bước 6.
+
+Q5. Quyền truy cập tài nguyên số của bạn đọc ngoài HUST
+1 | digital-resource-faq#6 | 0.671166 | Có quyền đọc toàn văn và tải học liệu mở.
+2 | digital-resource-faq#5 | 0.661946 | Có điều kiện đăng ký thẻ/tài khoản.
+3 | digital-resource-faq#4 | 0.639515 | Quyền của người học HUST, liên quan thấp.
+Đánh giá: Đạt; cần ghép top-1 và top-2.
+
+Tổng hợp: 2/5 câu đủ gold answer, 1/5 câu có một phần, 2/5 câu thất bại; điểm tự đánh giá 4/10.
