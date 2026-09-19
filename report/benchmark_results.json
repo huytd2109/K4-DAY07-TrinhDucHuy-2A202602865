@@ -1,0 +1,1706 @@
+{
+  "backend": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "mock": false,
+  "parameters": {
+    "chunk_size": 500,
+    "overlap": 50,
+    "semantic_threshold": 0.5,
+    "top_k": 3
+  },
+  "corpus": [
+    {
+      "doc_id": "digital-resource-faq",
+      "characters": 1537,
+      "metadata": {
+        "doc_id": "digital-resource-faq",
+        "title": "Câu hỏi thường gặp về tài nguyên số",
+        "source_url": "https://library.hust.edu.vn/vi/node/528",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "all",
+        "department": "library",
+        "category": "digital-resources",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "document-renewal",
+      "characters": 759,
+      "metadata": {
+        "doc_id": "document-renewal",
+        "title": "Hướng dẫn gia hạn tài liệu",
+        "source_url": "https://library.hust.edu.vn/vi/node/183",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "all",
+        "department": "library",
+        "category": "renewal",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "group-study-room",
+      "characters": 1243,
+      "metadata": {
+        "doc_id": "group-study-room",
+        "title": "Dịch vụ sử dụng phòng học nhóm",
+        "source_url": "https://library.hust.edu.vn/vi/node/1363",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "all",
+        "department": "library",
+        "category": "study-room",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "information-on-demand",
+      "characters": 1414,
+      "metadata": {
+        "doc_id": "information-on-demand",
+        "title": "Dịch vụ cung cấp thông tin theo yêu cầu",
+        "source_url": "https://library.hust.edu.vn/vi/node/41",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "all",
+        "department": "library",
+        "category": "research-support",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "library-account",
+      "characters": 2010,
+      "metadata": {
+        "doc_id": "library-account",
+        "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+        "source_url": "https://library.hust.edu.vn/vi/node/49",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "all",
+        "department": "library",
+        "category": "library-account",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "service-hours",
+      "characters": 787,
+      "metadata": {
+        "doc_id": "service-hours",
+        "title": "Giờ phục vụ thư viện",
+        "source_url": "https://library.hust.edu.vn/vi/node/416",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "all",
+        "department": "library",
+        "category": "hours",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "student-reference-book-borrowing",
+      "characters": 1071,
+      "metadata": {
+        "doc_id": "student-reference-book-borrowing",
+        "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+        "source_url": "https://library.hust.edu.vn/vi/node/502",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "student",
+        "department": "library",
+        "category": "borrowing",
+        "language": "vi"
+      }
+    },
+    {
+      "doc_id": "student-textbook-borrowing",
+      "characters": 2131,
+      "metadata": {
+        "doc_id": "student-textbook-borrowing",
+        "title": "Quy trình mượn trả giáo trình phòng 111",
+        "source_url": "https://library.hust.edu.vn/vi/node/483",
+        "retrieved_at": "2026-09-19",
+        "document_version": "not-stated",
+        "audience": "student",
+        "department": "library",
+        "category": "borrowing",
+        "language": "vi"
+      }
+    }
+  ],
+  "strategies": {
+    "fixed": {
+      "status": "completed",
+      "chunk_count": 28,
+      "documents": [
+        {
+          "doc_id": "digital-resource-faq",
+          "count": 4,
+          "avg_length": 421.75,
+          "max_length": 500
+        },
+        {
+          "doc_id": "document-renewal",
+          "count": 2,
+          "avg_length": 404.5,
+          "max_length": 500
+        },
+        {
+          "doc_id": "group-study-room",
+          "count": 3,
+          "avg_length": 447.6666666666667,
+          "max_length": 500
+        },
+        {
+          "doc_id": "information-on-demand",
+          "count": 4,
+          "avg_length": 391.0,
+          "max_length": 500
+        },
+        {
+          "doc_id": "library-account",
+          "count": 5,
+          "avg_length": 442.0,
+          "max_length": 500
+        },
+        {
+          "doc_id": "service-hours",
+          "count": 2,
+          "avg_length": 418.5,
+          "max_length": 500
+        },
+        {
+          "doc_id": "student-reference-book-borrowing",
+          "count": 3,
+          "avg_length": 390.3333333333333,
+          "max_length": 500
+        },
+        {
+          "doc_id": "student-textbook-borrowing",
+          "count": 5,
+          "avg_length": 466.2,
+          "max_length": 500
+        }
+      ],
+      "queries": [
+        {
+          "question": "Với giáo trình tại phòng 111, được mượn tối đa bao nhiêu cuốn, trong bao lâu và được gia hạn thế nào?",
+          "filter": {
+            "audience": "student"
+          },
+          "gold_doc_id": "student-textbook-borrowing",
+          "gold_section": "2. Chính sách mượn giáo trình",
+          "gold_answer": "Tối đa 8 cuốn, 90 ngày; gia hạn 01 lần thêm 30 ngày, tổng tối đa 120 ngày.",
+          "top3": [
+            {
+              "id": "student-textbook-borrowing#1",
+              "content": "nh sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi bạn đọc được mượn tối đa **8 cuốn**.\n- **Thời hạn mượn**: **90 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **30 ngày** (tổng thời gian mượn tối đa là **120 ngày**).\n\n## 3. Quy trình mượn và trả tài liệu\n\n### a) Mượn tài liệu:\n- **Bước 1**: Tra cứu tài liệu tại website: http://libopac.hust.edu.vn/ để xác định ký hiệu, vị trí tài liệu cần tìm.\n- **Bước 2**: Sử dụng thẻ sinh viên hoặc app iCTSV để check-in trước khi vào kho sách.\n",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 1,
+                "strategy": "fixed"
+              },
+              "score": 0.6649740552210613
+            },
+            {
+              "id": "student-reference-book-borrowing#0",
+              "content": "# Hướng dẫn mượn sách tham khảo phòng 102\n\n## 1. Vị trí và giờ phục vụ\n\n- **Vị trí**: Phòng 102, nằm ở phía trái, mặt trước Tòa nhà Thư viện Tạ Quang Bửu.\n- **Giờ phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n\n## 2. Chính sách mượn sách tham khảo\n\n- **Số lượng**: Tối đa **5 cuốn**.\n- **Thời hạn mượn**: Từ **1 đến 30 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **7 ngày**.\n\n## 3. Hướng dẫn quy trình mượn - trả\n\n### a) Tra cứu và mượn tà",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.6106437537356898
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111\n\n## 1. Vị trí và thời gian phục vụ\n\n- **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493\n\n## 2. Chính sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi ",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.5997083639224673
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Chính sách mượn sách tham khảo tại phòng 102 quy định số lượng, thời hạn và gia hạn như thế nào?",
+          "filter": {},
+          "gold_doc_id": "student-reference-book-borrowing",
+          "gold_section": "2. Chính sách mượn sách tham khảo",
+          "gold_answer": "Tối đa 5 cuốn, từ 1 đến 30 ngày; gia hạn 01 lần trong 7 ngày.",
+          "top3": [
+            {
+              "id": "student-reference-book-borrowing#0",
+              "content": "# Hướng dẫn mượn sách tham khảo phòng 102\n\n## 1. Vị trí và giờ phục vụ\n\n- **Vị trí**: Phòng 102, nằm ở phía trái, mặt trước Tòa nhà Thư viện Tạ Quang Bửu.\n- **Giờ phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n\n## 2. Chính sách mượn sách tham khảo\n\n- **Số lượng**: Tối đa **5 cuốn**.\n- **Thời hạn mượn**: Từ **1 đến 30 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **7 ngày**.\n\n## 3. Hướng dẫn quy trình mượn - trả\n\n### a) Tra cứu và mượn tà",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.6798958228258676
+            },
+            {
+              "id": "student-textbook-borrowing#1",
+              "content": "nh sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi bạn đọc được mượn tối đa **8 cuốn**.\n- **Thời hạn mượn**: **90 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **30 ngày** (tổng thời gian mượn tối đa là **120 ngày**).\n\n## 3. Quy trình mượn và trả tài liệu\n\n### a) Mượn tài liệu:\n- **Bước 1**: Tra cứu tài liệu tại website: http://libopac.hust.edu.vn/ để xác định ký hiệu, vị trí tài liệu cần tìm.\n- **Bước 2**: Sử dụng thẻ sinh viên hoặc app iCTSV để check-in trước khi vào kho sách.\n",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 1,
+                "strategy": "fixed"
+              },
+              "score": 0.5064922969442777
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111\n\n## 1. Vị trí và thời gian phục vụ\n\n- **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493\n\n## 2. Chính sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi ",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.5028914031863039
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Phòng học nhóm phục vụ vào thời gian nào và quy trình nhận trả chìa khóa ra sao?",
+          "filter": {},
+          "gold_doc_id": "group-study-room",
+          "gold_section": "2. Thời gian sử dụng; 3. Quy trình đăng ký và sử dụng phòng học nhóm",
+          "gold_answer": "Thứ Hai đến thứ Sáu 08h00-21h00, thứ Bảy và Chủ nhật 08h00-16h00; đăng ký rồi để lại thẻ tại P.411 để nhận chìa khóa, sau khi dùng trả chìa khóa để nhận lại thẻ.",
+          "top3": [
+            {
+              "id": "group-study-room#0",
+              "content": "# Dịch vụ sử dụng phòng học nhóm\n\nTrung tâm Truyền thông và Tri thức số cung cấp dịch vụ đăng ký sử dụng phòng học nhóm tại thư viện cho cán bộ, sinh viên Đại học Bách khoa Hà Nội.\n\n## 1. Đối tượng bạn đọc\nToàn bộ cán bộ, giảng viên, sinh viên, học viên Đại học Bách khoa Hà Nội.\n\n## 2. Thời gian sử dụng\n- **Thứ 2 đến thứ 6**: 08h00 – 21h00\n- **Thứ 7 và Chủ nhật**: 08h00 – 16h00\n\n## 3. Quy trình đăng ký và sử dụng phòng học nhóm\n- **Bước 1**: Bạn đọc đăng ký sử dụng qua một trong các hình thức:\n ",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.5389216222006691
+            },
+            {
+              "id": "group-study-room#1",
+              "content": "đọc đăng ký sử dụng qua một trong các hình thức:\n  - Truy cập link form Đăng ký sử dụng phòng học nhóm\n  - Quét mã QR\n  - Đăng ký trực tiếp tại quầy phục vụ Phòng 411 (P.411)\n- **Bước 2**: Liên hệ cán bộ P.411 để nhận chìa khóa phòng (xuất trình và để lại thẻ SV / thẻ cán bộ).\n- **Bước 3**: Trả lại chìa khóa sau khi sử dụng và nhận lại thẻ.\n\n## 4. Quy định khi sử dụng phòng\n- Tuân thủ nội quy, quy định chung của Thư viện.\n- Sử dụng phòng đúng mục đích học tập và trao đổi học thuật.\n- Bảo quản ch",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 1,
+                "strategy": "fixed"
+              },
+              "score": 0.49597471989636865
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111\n\n## 1. Vị trí và thời gian phục vụ\n\n- **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493\n\n## 2. Chính sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi ",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.4870812490366439
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Khi quên mật khẩu tài khoản thư viện, bạn đọc cần thực hiện các bước nào?",
+          "filter": {},
+          "gold_doc_id": "library-account",
+          "gold_section": "1. Hướng dẫn reset mật khẩu",
+          "gold_answer": "Truy cập libopac.hust.edu.vn, chọn Đăng nhập, chọn Quên mật khẩu / Quên mã PIN, nhập mã số thẻ, mở liên kết trong email rồi nhập và gửi mật khẩu mới.",
+          "top3": [
+            {
+              "id": "library-account#2",
+              "content": "ng tin tài khoản thư viện cùng lịch sử, trạng thái mượn tài liệu.\n- **Bước 3**: Để thay đổi mật khẩu / mã PIN: chọn **Thay đổi mật khẩu** trong menu bên trái, nhập Mật khẩu cũ và Mật khẩu mới (2 lần), sau đó bấm **Gửi** để hoàn tất.\n\n## 3. Khắc phục sự cố đăng nhập trên trình duyệt web\n\nKhi đăng nhập xuất hiện thông báo lỗi (thường gặp với Google Chrome, Cốc Cốc), bạn đọc xử lý theo các cách sau:\n- **Cách 1**: Đổi sang sử dụng trình duyệt web khác (khuyến nghị ưu tiên Microsoft Edge).\n- **Cách 2",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 2,
+                "strategy": "fixed"
+              },
+              "score": 0.6822940711425901
+            },
+            {
+              "id": "library-account#0",
+              "content": "# Hướng dẫn quản lý tài khoản bạn đọc\n\n## 1. Hướng dẫn reset mật khẩu (lần đầu đăng nhập hoặc quên mật khẩu)\n\n- **Bước 1**: Truy cập link: https://libopac.hust.edu.vn/\n- **Bước 2**: Chọn **Đăng nhập** (tại góc trên bên phải màn hình).\n- **Bước 3**: Từ giao diện đăng nhập, chọn **\"Quên mật khẩu / Quên mã PIN\"**.\n- **Bước 4**: Nhập Mã số thẻ (MSCB hoặc MSSV, ví dụ: `002.035.00041`) -> bấm **Gửi / Submit**. Hệ thống sẽ gửi một đường dẫn đặt lại mật khẩu tới Email HUST (hoặc email đã đăng ký với thư",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 0,
+                "strategy": "fixed"
+              },
+              "score": 0.6334339204685803
+            },
+            {
+              "id": "library-account#1",
+              "content": "khẩu tới Email HUST (hoặc email đã đăng ký với thư viện).\n- **Bước 5**: Kiểm tra hòm thư email và click vào đường dẫn nhận được.\n- **Bước 6**: Nhập MSSV/MSCB, nhập 2 lần Mật khẩu mới vào các ô tương ứng và bấm **Gửi / Submit** để hoàn thành việc thiết lập mật khẩu.\n\n## 2. Đăng nhập, xem thông tin tài khoản và đổi mật khẩu\n\n- **Bước 1**: Truy cập link: https://libopac.hust.edu.vn/\n- **Bước 2**: Chọn **Đăng nhập** (tại góc trên bên phải) để xem thông tin tài khoản thư viện cùng lịch sử, trạng thái",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 1,
+                "strategy": "fixed"
+              },
+              "score": 0.6127815506073707
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Bạn đọc ngoài HUST có thể đọc toàn văn tài nguyên số không và cần điều kiện gì?",
+          "filter": {},
+          "gold_doc_id": "digital-resource-faq",
+          "gold_section": "Câu 4; Câu 5",
+          "gold_answer": "Có. Bạn đọc ngoài HUST cần đăng ký làm thẻ hoặc tài khoản thư viện; sau khi đăng nhập có thể đọc toàn văn tài liệu số và tải các tài liệu học liệu mở.",
+          "top3": [
+            {
+              "id": "digital-resource-faq#2",
+              "content": "liệu mở.\n- Tham khảo tài liệu ngoại văn từ các cơ sở dữ liệu trực tuyến.\n\n## Câu 4: Quy định cho bạn đọc ngoài trường ĐHBK Hà Nội\nBạn đọc ngoài trường có thể đọc toàn văn tài liệu số nếu đăng ký làm thẻ / tài khoản thư viện theo Quy định làm thẻ bạn đọc.\n\n## Câu 5: Quyền lợi của bạn đọc ngoài trường khi đăng nhập\n- Tham khảo toàn văn tài liệu số trên trang web.\n- Tham khảo toàn văn hoặc tải về các tài liệu học liệu mở.\n\n## Câu 6: Gợi ý tìm kiếm tài liệu tại trang Tài nguyên số\n- Tìm kiếm tài liệ",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 2,
+                "strategy": "fixed"
+              },
+              "score": 0.7156331124475723
+            },
+            {
+              "id": "student-textbook-borrowing#4",
+              "content": " sản của Thư viện (tài liệu, máy tính…); không cắt, xé, viết, vẽ vào tài liệu.\n- Máy tính tại phòng mượn giáo trình chỉ sử dụng cho việc tra cứu tìm kiếm tài liệu, không sử dụng cho mục đích khác.\n- Bạn đọc đến mượn tài liệu để cặp, túi ở tủ gửi đồ; không để tư trang quý trong tủ gửi đồ và tự chịu trách nhiệm với tài sản cá nhân.",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 4,
+                "strategy": "fixed"
+              },
+              "score": 0.6173543618688073
+            },
+            {
+              "id": "digital-resource-faq#3",
+              "content": "ài liệu tại trang Tài nguyên số\n- Tìm kiếm tài liệu theo từ khóa bất kỳ.\n- Tìm kiếm tài liệu theo Nhan đề, tác giả, năm xuất bản, chủ đề, hoặc Người hướng dẫn (đối với luận văn, luận án).",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 3,
+                "strategy": "fixed"
+              },
+              "score": 0.5753365197154138
+            }
+          ],
+          "gold_document_rank": 1
+        }
+      ]
+    },
+    "recursive": {
+      "status": "completed",
+      "chunk_count": 26,
+      "documents": [
+        {
+          "doc_id": "digital-resource-faq",
+          "count": 4,
+          "avg_length": 381.0,
+          "max_length": 534
+        },
+        {
+          "doc_id": "document-renewal",
+          "count": 2,
+          "avg_length": 375.5,
+          "max_length": 389
+        },
+        {
+          "doc_id": "group-study-room",
+          "count": 3,
+          "avg_length": 411.6666666666667,
+          "max_length": 448
+        },
+        {
+          "doc_id": "information-on-demand",
+          "count": 3,
+          "avg_length": 468.6666666666667,
+          "max_length": 547
+        },
+        {
+          "doc_id": "library-account",
+          "count": 5,
+          "avg_length": 397.8,
+          "max_length": 605
+        },
+        {
+          "doc_id": "service-hours",
+          "count": 2,
+          "avg_length": 390.5,
+          "max_length": 587
+        },
+        {
+          "doc_id": "student-reference-book-borrowing",
+          "count": 2,
+          "avg_length": 531.5,
+          "max_length": 595
+        },
+        {
+          "doc_id": "student-textbook-borrowing",
+          "count": 5,
+          "avg_length": 423.6,
+          "max_length": 619
+        }
+      ],
+      "queries": [
+        {
+          "question": "Với giáo trình tại phòng 111, được mượn tối đa bao nhiêu cuốn, trong bao lâu và được gia hạn thế nào?",
+          "filter": {
+            "audience": "student"
+          },
+          "gold_doc_id": "student-textbook-borrowing",
+          "gold_section": "2. Chính sách mượn giáo trình",
+          "gold_answer": "Tối đa 8 cuốn, 90 ngày; gia hạn 01 lần thêm 30 ngày, tổng tối đa 120 ngày.",
+          "top3": [
+            {
+              "id": "student-textbook-borrowing#1",
+              "content": "- **Số lượng mượn**: Mỗi bạn đọc được mượn tối đa **8 cuốn**.\n- **Thời hạn mượn**: **90 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **30 ngày** (tổng thời gian mượn tối đa là **120 ngày**). ## 3. Quy trình mượn và trả tài liệu",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 1,
+                "strategy": "recursive"
+              },
+              "score": 0.6468398336948737
+            },
+            {
+              "id": "student-reference-book-borrowing#0",
+              "content": "# Hướng dẫn mượn sách tham khảo phòng 102 ## 1. Vị trí và giờ phục vụ - **Vị trí**: Phòng 102, nằm ở phía trái, mặt trước Tòa nhà Thư viện Tạ Quang Bửu.\n- **Giờ phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00 ## 2. Chính sách mượn sách tham khảo - **Số lượng**: Tối đa **5 cuốn**.\n- **Thời hạn mượn**: Từ **1 đến 30 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **7 ngày**. ## 3. Hướng dẫn quy trình mượn - trả",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.6106437537356898
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111 ## 1. Vị trí và thời gian phục vụ - **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493 ## 2. Chính sách mượn giáo trình",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.5997083639224673
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Chính sách mượn sách tham khảo tại phòng 102 quy định số lượng, thời hạn và gia hạn như thế nào?",
+          "filter": {},
+          "gold_doc_id": "student-reference-book-borrowing",
+          "gold_section": "2. Chính sách mượn sách tham khảo",
+          "gold_answer": "Tối đa 5 cuốn, từ 1 đến 30 ngày; gia hạn 01 lần trong 7 ngày.",
+          "top3": [
+            {
+              "id": "student-reference-book-borrowing#0",
+              "content": "# Hướng dẫn mượn sách tham khảo phòng 102 ## 1. Vị trí và giờ phục vụ - **Vị trí**: Phòng 102, nằm ở phía trái, mặt trước Tòa nhà Thư viện Tạ Quang Bửu.\n- **Giờ phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00 ## 2. Chính sách mượn sách tham khảo - **Số lượng**: Tối đa **5 cuốn**.\n- **Thời hạn mượn**: Từ **1 đến 30 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **7 ngày**. ## 3. Hướng dẫn quy trình mượn - trả",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.6798958228258676
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111 ## 1. Vị trí và thời gian phục vụ - **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493 ## 2. Chính sách mượn giáo trình",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.5028914031863039
+            },
+            {
+              "id": "service-hours#1",
+              "content": "Áp dụng cho các phòng đọc P.402, P.411, P.419, P.526 theo thông báo chi tiết trên website vào giai đoạn thi cao điểm:\n- **Từ thứ 2 đến thứ 6**: 08h00 – 21h00\n- **Thứ 7, Chủ nhật**: 08h00 – 16h00",
+              "metadata": {
+                "doc_id": "service-hours",
+                "title": "Giờ phục vụ thư viện",
+                "source_url": "https://library.hust.edu.vn/vi/node/416",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "hours",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/416",
+                "chunk_index": 1,
+                "strategy": "recursive"
+              },
+              "score": 0.48920120990841254
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Phòng học nhóm phục vụ vào thời gian nào và quy trình nhận trả chìa khóa ra sao?",
+          "filter": {},
+          "gold_doc_id": "group-study-room",
+          "gold_section": "2. Thời gian sử dụng; 3. Quy trình đăng ký và sử dụng phòng học nhóm",
+          "gold_answer": "Thứ Hai đến thứ Sáu 08h00-21h00, thứ Bảy và Chủ nhật 08h00-16h00; đăng ký rồi để lại thẻ tại P.411 để nhận chìa khóa, sau khi dùng trả chìa khóa để nhận lại thẻ.",
+          "top3": [
+            {
+              "id": "group-study-room#1",
+              "content": "## 3. Quy trình đăng ký và sử dụng phòng học nhóm\n- **Bước 1**: Bạn đọc đăng ký sử dụng qua một trong các hình thức:\n  - Truy cập link form Đăng ký sử dụng phòng học nhóm\n  - Quét mã QR\n  - Đăng ký trực tiếp tại quầy phục vụ Phòng 411 (P.411)\n- **Bước 2**: Liên hệ cán bộ P.411 để nhận chìa khóa phòng (xuất trình và để lại thẻ SV / thẻ cán bộ).\n- **Bước 3**: Trả lại chìa khóa sau khi sử dụng và nhận lại thẻ.",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 1,
+                "strategy": "recursive"
+              },
+              "score": 0.5550666836150749
+            },
+            {
+              "id": "group-study-room#0",
+              "content": "# Dịch vụ sử dụng phòng học nhóm Trung tâm Truyền thông và Tri thức số cung cấp dịch vụ đăng ký sử dụng phòng học nhóm tại thư viện cho cán bộ, sinh viên Đại học Bách khoa Hà Nội. ## 1. Đối tượng bạn đọc\nToàn bộ cán bộ, giảng viên, sinh viên, học viên Đại học Bách khoa Hà Nội. ## 2. Thời gian sử dụng\n- **Thứ 2 đến thứ 6**: 08h00 – 21h00\n- **Thứ 7 và Chủ nhật**: 08h00 – 16h00",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.5156901483712266
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111 ## 1. Vị trí và thời gian phục vụ - **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493 ## 2. Chính sách mượn giáo trình",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.4870812490366439
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Khi quên mật khẩu tài khoản thư viện, bạn đọc cần thực hiện các bước nào?",
+          "filter": {},
+          "gold_doc_id": "library-account",
+          "gold_section": "1. Hướng dẫn reset mật khẩu",
+          "gold_answer": "Truy cập libopac.hust.edu.vn, chọn Đăng nhập, chọn Quên mật khẩu / Quên mã PIN, nhập mã số thẻ, mở liên kết trong email rồi nhập và gửi mật khẩu mới.",
+          "top3": [
+            {
+              "id": "library-account#0",
+              "content": "# Hướng dẫn quản lý tài khoản bạn đọc ## 1. Hướng dẫn reset mật khẩu (lần đầu đăng nhập hoặc quên mật khẩu)",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 0,
+                "strategy": "recursive"
+              },
+              "score": 0.6646422218708524
+            },
+            {
+              "id": "library-account#2",
+              "content": "## 2. Đăng nhập, xem thông tin tài khoản và đổi mật khẩu - **Bước 1**: Truy cập link: https://libopac.hust.edu.vn/\n- **Bước 2**: Chọn **Đăng nhập** (tại góc trên bên phải) để xem thông tin tài khoản thư viện cùng lịch sử, trạng thái mượn tài liệu.\n- **Bước 3**: Để thay đổi mật khẩu / mã PIN: chọn **Thay đổi mật khẩu** trong menu bên trái, nhập Mật khẩu cũ và Mật khẩu mới (2 lần), sau đó bấm **Gửi** để hoàn tất. ## 3. Khắc phục sự cố đăng nhập trên trình duyệt web",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 2,
+                "strategy": "recursive"
+              },
+              "score": 0.6270045721769067
+            },
+            {
+              "id": "document-renewal#1",
+              "content": "- Tất cả tài liệu chỉ được gia hạn **01 lần**.\n- Bạn đọc lưu ý trả tài liệu đúng theo thời gian đã được gia hạn.\n- Hướng dẫn quản lý tài khoản: https://library.hust.edu.vn/vi/node/49 ## 3. Thông tin liên hệ hỗ trợ Mọi thắc mắc về tài khoản bạn đọc, vui lòng liên hệ Trung tâm Truyền thông và Tri thức số:\n- Điện thoại: (024) 32215 3287\n- Email: tvtqb@hust.edu.vn",
+              "metadata": {
+                "doc_id": "document-renewal",
+                "title": "Hướng dẫn gia hạn tài liệu",
+                "source_url": "https://library.hust.edu.vn/vi/node/183",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "renewal",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/183",
+                "chunk_index": 1,
+                "strategy": "recursive"
+              },
+              "score": 0.44287445863565233
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Bạn đọc ngoài HUST có thể đọc toàn văn tài nguyên số không và cần điều kiện gì?",
+          "filter": {},
+          "gold_doc_id": "digital-resource-faq",
+          "gold_section": "Câu 4; Câu 5",
+          "gold_answer": "Có. Bạn đọc ngoài HUST cần đăng ký làm thẻ hoặc tài khoản thư viện; sau khi đăng nhập có thể đọc toàn văn tài liệu số và tải các tài liệu học liệu mở.",
+          "top3": [
+            {
+              "id": "digital-resource-faq#2",
+              "content": "## Câu 3: Quyền lợi của cán bộ, giảng viên và người học tại ĐHBK Hà Nội\n- Tham khảo toàn văn tất cả tài liệu số trên trang web.\n- Tham khảo toàn văn hoặc tải về các tài liệu học liệu mở.\n- Tham khảo tài liệu ngoại văn từ các cơ sở dữ liệu trực tuyến. ## Câu 4: Quy định cho bạn đọc ngoài trường ĐHBK Hà Nội\nBạn đọc ngoài trường có thể đọc toàn văn tài liệu số nếu đăng ký làm thẻ / tài khoản thư viện theo Quy định làm thẻ bạn đọc.",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 2,
+                "strategy": "recursive"
+              },
+              "score": 0.6861470583149595
+            },
+            {
+              "id": "digital-resource-faq#3",
+              "content": "## Câu 5: Quyền lợi của bạn đọc ngoài trường khi đăng nhập\n- Tham khảo toàn văn tài liệu số trên trang web.\n- Tham khảo toàn văn hoặc tải về các tài liệu học liệu mở. ## Câu 6: Gợi ý tìm kiếm tài liệu tại trang Tài nguyên số\n- Tìm kiếm tài liệu theo từ khóa bất kỳ.\n- Tìm kiếm tài liệu theo Nhan đề, tác giả, năm xuất bản, chủ đề, hoặc Người hướng dẫn (đối với luận văn, luận án).",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 3,
+                "strategy": "recursive"
+              },
+              "score": 0.6650792140877756
+            },
+            {
+              "id": "student-textbook-borrowing#4",
+              "content": "- Không cho người khác mượn thẻ và không sử dụng thẻ của người khác. - Trang phục nghiêm túc, lịch sự, giữ gìn vệ sinh, không mang theo đồ ăn uống, giữ trật tự; tuyệt đối không hút thuốc và không sử dụng các vật dễ cháy nổ trong khu vực thư viện. - Bạn đọc có ý thức giữ gìn và bảo vệ tài sản của Thư viện (tài liệu, máy tính…); không cắt, xé, viết, vẽ vào tài liệu. - Máy tính tại phòng mượn giáo trình chỉ sử dụng cho việc tra cứu tìm kiếm tài liệu, không sử dụng cho mục đích khác. - Bạn đọc đến mượn tài liệu để cặp, túi ở tủ gửi đồ; không để tư trang quý trong tủ gửi đồ và tự chịu trách nhiệm với tài sản cá nhân.",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 4,
+                "strategy": "recursive"
+              },
+              "score": 0.5839404286773365
+            }
+          ],
+          "gold_document_rank": 1
+        }
+      ]
+    },
+    "heading": {
+      "status": "completed",
+      "chunk_count": 32,
+      "documents": [
+        {
+          "doc_id": "digital-resource-faq",
+          "count": 6,
+          "avg_length": 254.5,
+          "max_length": 538
+        },
+        {
+          "doc_id": "document-renewal",
+          "count": 3,
+          "avg_length": 251.66666666666666,
+          "max_length": 368
+        },
+        {
+          "doc_id": "group-study-room",
+          "count": 5,
+          "avg_length": 247.0,
+          "max_length": 410
+        },
+        {
+          "doc_id": "information-on-demand",
+          "count": 5,
+          "avg_length": 281.2,
+          "max_length": 549
+        },
+        {
+          "doc_id": "library-account",
+          "count": 4,
+          "avg_length": 501.0,
+          "max_length": 715
+        },
+        {
+          "doc_id": "service-hours",
+          "count": 2,
+          "avg_length": 392.5,
+          "max_length": 531
+        },
+        {
+          "doc_id": "student-reference-book-borrowing",
+          "count": 3,
+          "avg_length": 355.6666666666667,
+          "max_length": 634
+        },
+        {
+          "doc_id": "student-textbook-borrowing",
+          "count": 4,
+          "avg_length": 531.25,
+          "max_length": 794
+        }
+      ],
+      "queries": [
+        {
+          "question": "Với giáo trình tại phòng 111, được mượn tối đa bao nhiêu cuốn, trong bao lâu và được gia hạn thế nào?",
+          "filter": {
+            "audience": "student"
+          },
+          "gold_doc_id": "student-textbook-borrowing",
+          "gold_section": "2. Chính sách mượn giáo trình",
+          "gold_answer": "Tối đa 8 cuốn, 90 ngày; gia hạn 01 lần thêm 30 ngày, tổng tối đa 120 ngày.",
+          "top3": [
+            {
+              "id": "student-textbook-borrowing#1",
+              "content": "## 2. Chính sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi bạn đọc được mượn tối đa **8 cuốn**.\n- **Thời hạn mượn**: **90 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **30 ngày** (tổng thời gian mượn tối đa là **120 ngày**).",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 1,
+                "strategy": "heading"
+              },
+              "score": 0.6373123566597287
+            },
+            {
+              "id": "student-reference-book-borrowing#1",
+              "content": "## 2. Chính sách mượn sách tham khảo\n\n- **Số lượng**: Tối đa **5 cuốn**.\n- **Thời hạn mượn**: Từ **1 đến 30 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **7 ngày**.",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 1,
+                "strategy": "heading"
+              },
+              "score": 0.6118239902687834
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111\n\n## 1. Vị trí và thời gian phục vụ\n\n- **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "heading"
+              },
+              "score": 0.5997083639224673
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Chính sách mượn sách tham khảo tại phòng 102 quy định số lượng, thời hạn và gia hạn như thế nào?",
+          "filter": {},
+          "gold_doc_id": "student-reference-book-borrowing",
+          "gold_section": "2. Chính sách mượn sách tham khảo",
+          "gold_answer": "Tối đa 5 cuốn, từ 1 đến 30 ngày; gia hạn 01 lần trong 7 ngày.",
+          "top3": [
+            {
+              "id": "student-reference-book-borrowing#1",
+              "content": "## 2. Chính sách mượn sách tham khảo\n\n- **Số lượng**: Tối đa **5 cuốn**.\n- **Thời hạn mượn**: Từ **1 đến 30 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **7 ngày**.",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 1,
+                "strategy": "heading"
+              },
+              "score": 0.6472806492799055
+            },
+            {
+              "id": "student-reference-book-borrowing#0",
+              "content": "# Hướng dẫn mượn sách tham khảo phòng 102\n\n## 1. Vị trí và giờ phục vụ\n\n- **Vị trí**: Phòng 102, nằm ở phía trái, mặt trước Tòa nhà Thư viện Tạ Quang Bửu.\n- **Giờ phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 0,
+                "strategy": "heading"
+              },
+              "score": 0.614446347166468
+            },
+            {
+              "id": "student-textbook-borrowing#1",
+              "content": "## 2. Chính sách mượn giáo trình\n\n- **Số lượng mượn**: Mỗi bạn đọc được mượn tối đa **8 cuốn**.\n- **Thời hạn mượn**: **90 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **30 ngày** (tổng thời gian mượn tối đa là **120 ngày**).",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 1,
+                "strategy": "heading"
+              },
+              "score": 0.5609700689788113
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Phòng học nhóm phục vụ vào thời gian nào và quy trình nhận trả chìa khóa ra sao?",
+          "filter": {},
+          "gold_doc_id": "group-study-room",
+          "gold_section": "2. Thời gian sử dụng; 3. Quy trình đăng ký và sử dụng phòng học nhóm",
+          "gold_answer": "Thứ Hai đến thứ Sáu 08h00-21h00, thứ Bảy và Chủ nhật 08h00-16h00; đăng ký rồi để lại thẻ tại P.411 để nhận chìa khóa, sau khi dùng trả chìa khóa để nhận lại thẻ.",
+          "top3": [
+            {
+              "id": "group-study-room#2",
+              "content": "## 3. Quy trình đăng ký và sử dụng phòng học nhóm\n- **Bước 1**: Bạn đọc đăng ký sử dụng qua một trong các hình thức:\n  - Truy cập link form Đăng ký sử dụng phòng học nhóm\n  - Quét mã QR\n  - Đăng ký trực tiếp tại quầy phục vụ Phòng 411 (P.411)\n- **Bước 2**: Liên hệ cán bộ P.411 để nhận chìa khóa phòng (xuất trình và để lại thẻ SV / thẻ cán bộ).\n- **Bước 3**: Trả lại chìa khóa sau khi sử dụng và nhận lại thẻ.",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 2,
+                "strategy": "heading"
+              },
+              "score": 0.5550666836150749
+            },
+            {
+              "id": "group-study-room#0",
+              "content": "# Dịch vụ sử dụng phòng học nhóm\n\nTrung tâm Truyền thông và Tri thức số cung cấp dịch vụ đăng ký sử dụng phòng học nhóm tại thư viện cho cán bộ, sinh viên Đại học Bách khoa Hà Nội.\n\n## 1. Đối tượng bạn đọc\nToàn bộ cán bộ, giảng viên, sinh viên, học viên Đại học Bách khoa Hà Nội.",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 0,
+                "strategy": "heading"
+              },
+              "score": 0.5014944394469848
+            },
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111\n\n## 1. Vị trí và thời gian phục vụ\n\n- **Vị trí**: Phòng 111, mặt sau Tòa nhà Thư viện Tạ Quang Bửu (đối diện Giảng đường D9).\n- **Thời gian phục vụ** (từ thứ 2 đến thứ 6):\n  - **Sáng**: 08h00 – 11h30\n  - **Chiều**: 13h30 – 17h00\n- **Lưu ý nghiệp vụ**: Sáng thứ 3 và sáng thứ 6 hàng tuần không phục vụ mượn trả để làm công tác kiểm kê, nghiệp vụ và vệ sinh kho sách.\n- **Điện thoại**: 024 3868 0493",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "heading"
+              },
+              "score": 0.4870812490366439
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Khi quên mật khẩu tài khoản thư viện, bạn đọc cần thực hiện các bước nào?",
+          "filter": {},
+          "gold_doc_id": "library-account",
+          "gold_section": "1. Hướng dẫn reset mật khẩu",
+          "gold_answer": "Truy cập libopac.hust.edu.vn, chọn Đăng nhập, chọn Quên mật khẩu / Quên mã PIN, nhập mã số thẻ, mở liên kết trong email rồi nhập và gửi mật khẩu mới.",
+          "top3": [
+            {
+              "id": "library-account#0",
+              "content": "# Hướng dẫn quản lý tài khoản bạn đọc\n\n## 1. Hướng dẫn reset mật khẩu (lần đầu đăng nhập hoặc quên mật khẩu)\n\n- **Bước 1**: Truy cập link: https://libopac.hust.edu.vn/\n- **Bước 2**: Chọn **Đăng nhập** (tại góc trên bên phải màn hình).\n- **Bước 3**: Từ giao diện đăng nhập, chọn **\"Quên mật khẩu / Quên mã PIN\"**.\n- **Bước 4**: Nhập Mã số thẻ (MSCB hoặc MSSV, ví dụ: `002.035.00041`) -> bấm **Gửi / Submit**. Hệ thống sẽ gửi một đường dẫn đặt lại mật khẩu tới Email HUST (hoặc email đã đăng ký với thư viện).\n- **Bước 5**: Kiểm tra hòm thư email và click vào đường dẫn nhận được.\n- **Bước 6**: Nhập MSSV/MSCB, nhập 2 lần Mật khẩu mới vào các ô tương ứng và bấm **Gửi / Submit** để hoàn thành việc thiết lập mật khẩu.",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 0,
+                "strategy": "heading"
+              },
+              "score": 0.6334339204685803
+            },
+            {
+              "id": "library-account#1",
+              "content": "## 2. Đăng nhập, xem thông tin tài khoản và đổi mật khẩu\n\n- **Bước 1**: Truy cập link: https://libopac.hust.edu.vn/\n- **Bước 2**: Chọn **Đăng nhập** (tại góc trên bên phải) để xem thông tin tài khoản thư viện cùng lịch sử, trạng thái mượn tài liệu.\n- **Bước 3**: Để thay đổi mật khẩu / mã PIN: chọn **Thay đổi mật khẩu** trong menu bên trái, nhập Mật khẩu cũ và Mật khẩu mới (2 lần), sau đó bấm **Gửi** để hoàn tất.",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 1,
+                "strategy": "heading"
+              },
+              "score": 0.6270045721769067
+            },
+            {
+              "id": "digital-resource-faq#3",
+              "content": "## Câu 4: Quy định cho bạn đọc ngoài trường ĐHBK Hà Nội\nBạn đọc ngoài trường có thể đọc toàn văn tài liệu số nếu đăng ký làm thẻ / tài khoản thư viện theo Quy định làm thẻ bạn đọc.",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 3,
+                "strategy": "heading"
+              },
+              "score": 0.4903434890548302
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Bạn đọc ngoài HUST có thể đọc toàn văn tài nguyên số không và cần điều kiện gì?",
+          "filter": {},
+          "gold_doc_id": "digital-resource-faq",
+          "gold_section": "Câu 4; Câu 5",
+          "gold_answer": "Có. Bạn đọc ngoài HUST cần đăng ký làm thẻ hoặc tài khoản thư viện; sau khi đăng nhập có thể đọc toàn văn tài liệu số và tải các tài liệu học liệu mở.",
+          "top3": [
+            {
+              "id": "digital-resource-faq#3",
+              "content": "## Câu 4: Quy định cho bạn đọc ngoài trường ĐHBK Hà Nội\nBạn đọc ngoài trường có thể đọc toàn văn tài liệu số nếu đăng ký làm thẻ / tài khoản thư viện theo Quy định làm thẻ bạn đọc.",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 3,
+                "strategy": "heading"
+              },
+              "score": 0.6767546303133628
+            },
+            {
+              "id": "digital-resource-faq#4",
+              "content": "## Câu 5: Quyền lợi của bạn đọc ngoài trường khi đăng nhập\n- Tham khảo toàn văn tài liệu số trên trang web.\n- Tham khảo toàn văn hoặc tải về các tài liệu học liệu mở.",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 4,
+                "strategy": "heading"
+              },
+              "score": 0.6648202478582003
+            },
+            {
+              "id": "student-textbook-borrowing#3",
+              "content": "## 4. Một số lưu ý quan trọng\n\n- Không cho người khác mượn thẻ và không sử dụng thẻ của người khác.\n- Trang phục nghiêm túc, lịch sự, giữ gìn vệ sinh, không mang theo đồ ăn uống, giữ trật tự; tuyệt đối không hút thuốc và không sử dụng các vật dễ cháy nổ trong khu vực thư viện.\n- Bạn đọc có ý thức giữ gìn và bảo vệ tài sản của Thư viện (tài liệu, máy tính…); không cắt, xé, viết, vẽ vào tài liệu.\n- Máy tính tại phòng mượn giáo trình chỉ sử dụng cho việc tra cứu tìm kiếm tài liệu, không sử dụng cho mục đích khác.\n- Bạn đọc đến mượn tài liệu để cặp, túi ở tủ gửi đồ; không để tư trang quý trong tủ gửi đồ và tự chịu trách nhiệm với tài sản cá nhân.",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 3,
+                "strategy": "heading"
+              },
+              "score": 0.5977406556037346
+            }
+          ],
+          "gold_document_rank": 1
+        }
+      ]
+    },
+    "semantic": {
+      "status": "completed",
+      "chunk_count": 156,
+      "documents": [
+        {
+          "doc_id": "digital-resource-faq",
+          "count": 8,
+          "avg_length": 190.0,
+          "max_length": 433
+        },
+        {
+          "doc_id": "document-renewal",
+          "count": 13,
+          "avg_length": 56.92307692307692,
+          "max_length": 200
+        },
+        {
+          "doc_id": "group-study-room",
+          "count": 20,
+          "avg_length": 60.6,
+          "max_length": 222
+        },
+        {
+          "doc_id": "information-on-demand",
+          "count": 23,
+          "avg_length": 60.26086956521739,
+          "max_length": 361
+        },
+        {
+          "doc_id": "library-account",
+          "count": 35,
+          "avg_length": 55.97142857142857,
+          "max_length": 170
+        },
+        {
+          "doc_id": "service-hours",
+          "count": 8,
+          "avg_length": 96.875,
+          "max_length": 261
+        },
+        {
+          "doc_id": "student-reference-book-borrowing",
+          "count": 21,
+          "avg_length": 49.523809523809526,
+          "max_length": 109
+        },
+        {
+          "doc_id": "student-textbook-borrowing",
+          "count": 28,
+          "avg_length": 74.67857142857143,
+          "max_length": 415
+        }
+      ],
+      "queries": [
+        {
+          "question": "Với giáo trình tại phòng 111, được mượn tối đa bao nhiêu cuốn, trong bao lâu và được gia hạn thế nào?",
+          "filter": {
+            "audience": "student"
+          },
+          "gold_doc_id": "student-textbook-borrowing",
+          "gold_section": "2. Chính sách mượn giáo trình",
+          "gold_answer": "Tối đa 8 cuốn, 90 ngày; gia hạn 01 lần thêm 30 ngày, tổng tối đa 120 ngày.",
+          "top3": [
+            {
+              "id": "student-textbook-borrowing#0",
+              "content": "# Quy trình mượn trả giáo trình phòng 111",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 0,
+                "strategy": "semantic"
+              },
+              "score": 0.650083236745362
+            },
+            {
+              "id": "student-textbook-borrowing#9",
+              "content": "- **Số lượng mượn**: Mỗi bạn đọc được mượn tối đa **8 cuốn**.",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 9,
+                "strategy": "semantic"
+              },
+              "score": 0.5913994323455348
+            },
+            {
+              "id": "student-textbook-borrowing#10",
+              "content": "- **Thời hạn mượn**: **90 ngày**.\n- **Gia hạn**: Được gia hạn **01 lần** trong thời gian **30 ngày** (tổng thời gian mượn tối đa là **120 ngày**).",
+              "metadata": {
+                "doc_id": "student-textbook-borrowing",
+                "title": "Quy trình mượn trả giáo trình phòng 111",
+                "source_url": "https://library.hust.edu.vn/vi/node/483",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/483",
+                "chunk_index": 10,
+                "strategy": "semantic"
+              },
+              "score": 0.5522584073130609
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Chính sách mượn sách tham khảo tại phòng 102 quy định số lượng, thời hạn và gia hạn như thế nào?",
+          "filter": {},
+          "gold_doc_id": "student-reference-book-borrowing",
+          "gold_section": "2. Chính sách mượn sách tham khảo",
+          "gold_answer": "Tối đa 5 cuốn, từ 1 đến 30 ngày; gia hạn 01 lần trong 7 ngày.",
+          "top3": [
+            {
+              "id": "student-reference-book-borrowing#7",
+              "content": "Chính sách mượn sách tham khảo",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 7,
+                "strategy": "semantic"
+              },
+              "score": 0.6463358039400474
+            },
+            {
+              "id": "student-reference-book-borrowing#0",
+              "content": "# Hướng dẫn mượn sách tham khảo phòng 102",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 0,
+                "strategy": "semantic"
+              },
+              "score": 0.6339984978614049
+            },
+            {
+              "id": "document-renewal#1",
+              "content": "Quy trình gia hạn tài liệu",
+              "metadata": {
+                "doc_id": "document-renewal",
+                "title": "Hướng dẫn gia hạn tài liệu",
+                "source_url": "https://library.hust.edu.vn/vi/node/183",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "renewal",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/183",
+                "chunk_index": 1,
+                "strategy": "semantic"
+              },
+              "score": 0.5795394476967003
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Phòng học nhóm phục vụ vào thời gian nào và quy trình nhận trả chìa khóa ra sao?",
+          "filter": {},
+          "gold_doc_id": "group-study-room",
+          "gold_section": "2. Thời gian sử dụng; 3. Quy trình đăng ký và sử dụng phòng học nhóm",
+          "gold_answer": "Thứ Hai đến thứ Sáu 08h00-21h00, thứ Bảy và Chủ nhật 08h00-16h00; đăng ký rồi để lại thẻ tại P.411 để nhận chìa khóa, sau khi dùng trả chìa khóa để nhận lại thẻ.",
+          "top3": [
+            {
+              "id": "group-study-room#7",
+              "content": "Quy trình đăng ký và sử dụng phòng học nhóm",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 7,
+                "strategy": "semantic"
+              },
+              "score": 0.7445994954445168
+            },
+            {
+              "id": "group-study-room#0",
+              "content": "# Dịch vụ sử dụng phòng học nhóm\nTrung tâm Truyền thông và Tri thức số cung cấp dịch vụ đăng ký sử dụng phòng học nhóm tại thư viện cho cán bộ, sinh viên Đại học Bách khoa Hà Nội.",
+              "metadata": {
+                "doc_id": "group-study-room",
+                "title": "Dịch vụ sử dụng phòng học nhóm",
+                "source_url": "https://library.hust.edu.vn/vi/node/1363",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "study-room",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/1363",
+                "chunk_index": 0,
+                "strategy": "semantic"
+              },
+              "score": 0.5515074187310071
+            },
+            {
+              "id": "student-reference-book-borrowing#2",
+              "content": "Vị trí và giờ phục vụ",
+              "metadata": {
+                "doc_id": "student-reference-book-borrowing",
+                "title": "Hướng dẫn mượn sách tham khảo phòng 102",
+                "source_url": "https://library.hust.edu.vn/vi/node/502",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "student",
+                "department": "library",
+                "category": "borrowing",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/502",
+                "chunk_index": 2,
+                "strategy": "semantic"
+              },
+              "score": 0.5331774996497736
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Khi quên mật khẩu tài khoản thư viện, bạn đọc cần thực hiện các bước nào?",
+          "filter": {},
+          "gold_doc_id": "library-account",
+          "gold_section": "1. Hướng dẫn reset mật khẩu",
+          "gold_answer": "Truy cập libopac.hust.edu.vn, chọn Đăng nhập, chọn Quên mật khẩu / Quên mã PIN, nhập mã số thẻ, mở liên kết trong email rồi nhập và gửi mật khẩu mới.",
+          "top3": [
+            {
+              "id": "library-account#10",
+              "content": "Đăng nhập, xem thông tin tài khoản và đổi mật khẩu",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 10,
+                "strategy": "semantic"
+              },
+              "score": 0.6668019556842975
+            },
+            {
+              "id": "library-account#2",
+              "content": "Hướng dẫn reset mật khẩu (lần đầu đăng nhập hoặc quên mật khẩu)",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 2,
+                "strategy": "semantic"
+              },
+              "score": 0.6634166433651847
+            },
+            {
+              "id": "library-account#7",
+              "content": "Hệ thống sẽ gửi một đường dẫn đặt lại mật khẩu tới Email HUST (hoặc email đã đăng ký với thư viện).\n- **Bước 5**: Kiểm tra hòm thư email và click vào đường dẫn nhận được.",
+              "metadata": {
+                "doc_id": "library-account",
+                "title": "Hướng dẫn quản lý tài khoản bạn đọc",
+                "source_url": "https://library.hust.edu.vn/vi/node/49",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "library-account",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/49",
+                "chunk_index": 7,
+                "strategy": "semantic"
+              },
+              "score": 0.6408889581929612
+            }
+          ],
+          "gold_document_rank": 1
+        },
+        {
+          "question": "Bạn đọc ngoài HUST có thể đọc toàn văn tài nguyên số không và cần điều kiện gì?",
+          "filter": {},
+          "gold_doc_id": "digital-resource-faq",
+          "gold_section": "Câu 4; Câu 5",
+          "gold_answer": "Có. Bạn đọc ngoài HUST cần đăng ký làm thẻ hoặc tài khoản thư viện; sau khi đăng nhập có thể đọc toàn văn tài liệu số và tải các tài liệu học liệu mở.",
+          "top3": [
+            {
+              "id": "digital-resource-faq#6",
+              "content": "- Tham khảo toàn văn tài liệu số trên trang web.\n- Tham khảo toàn văn hoặc tải về các tài liệu học liệu mở.",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 6,
+                "strategy": "semantic"
+              },
+              "score": 0.6711663262285421
+            },
+            {
+              "id": "digital-resource-faq#5",
+              "content": "## Câu 4: Quy định cho bạn đọc ngoài trường ĐHBK Hà Nội\nBạn đọc ngoài trường có thể đọc toàn văn tài liệu số nếu đăng ký làm thẻ / tài khoản thư viện theo Quy định làm thẻ bạn đọc.\n## Câu 5: Quyền lợi của bạn đọc ngoài trường khi đăng nhập",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 5,
+                "strategy": "semantic"
+              },
+              "score": 0.6619459033386162
+            },
+            {
+              "id": "digital-resource-faq#4",
+              "content": "- Tham khảo toàn văn tất cả tài liệu số trên trang web.\n- Tham khảo toàn văn hoặc tải về các tài liệu học liệu mở.\n- Tham khảo tài liệu ngoại văn từ các cơ sở dữ liệu trực tuyến.",
+              "metadata": {
+                "doc_id": "digital-resource-faq",
+                "title": "Câu hỏi thường gặp về tài nguyên số",
+                "source_url": "https://library.hust.edu.vn/vi/node/528",
+                "retrieved_at": "2026-09-19",
+                "document_version": "not-stated",
+                "audience": "all",
+                "department": "library",
+                "category": "digital-resources",
+                "language": "vi",
+                "source": "https://library.hust.edu.vn/vi/node/528",
+                "chunk_index": 4,
+                "strategy": "semantic"
+              },
+              "score": 0.6395149965300316
+            }
+          ],
+          "gold_document_rank": 1
+        }
+      ]
+    }
+  }
+}
